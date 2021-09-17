@@ -1,8 +1,10 @@
-# Title of the paper
-Authors of the paper
-Conference/journal it was published, year
+# The Effect of Work Environments on Productivity and Satisfaction of Software Engineers
 
-_Your name (student id)_
+Brittany Johnson, Thomas Zimmermann, Senior Member, IEEE, and Christian Bird, Member, IEEE
+
+IEEE Transactions on Software Engineering, 2019
+
+_Niek van der Plas (5363780) & Mark Meijhuis (xxxxxxx)_
 
 TL;DR: Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
 
