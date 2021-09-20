@@ -6,13 +6,15 @@ IEEE Transactions on Software Engineering, 2019
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
-**TL;DR:** Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
+**TL;DR:**  MAND Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
 
 ------------------
 
 ## Motivation and goal
 
-An important aspect of any work is the physical environment that it takes place in. 
+An important aspect of any work is the physical environment that it takes place in. In modern software development, teams are collaborating across borders, use agile software development and use a variety of tools to communicate and collaborate effectively. The changes in today's development practices call for renewed insights in the effect of the physical environment on the engineer's satisfaction and productivity. This will reduce attrition and avoid overworking engineers.
+
+An empirical study of physical work environments was done at Microsoft. To determine the best physical environment for engineers, Johnson et al did a mixed methods study to assess the important factors in the physical environment that affect the engineer's satisfaction and productivity. An investigation was also done to determine how these factors differ between software engineers and office workers in non-development roles at Microsoft.
 
 ---------------------
 
@@ -55,10 +57,24 @@ and factors regarding work environments.
 
 ## Implications
 
-The conclusions drawn from this paper are beneficial for several party's. Most obvious, it is useful for employers who want to increase the productivity to bump up the efficiency and thus to increase profits made. Using the results of this paper, employers can decide how to 
+The conclusions drawn from this paper are beneficial for several party's. Most obvious, it is useful for employers who want to increase the productivity to bump up the efficiency and thus to increase profits made. Using the results of this paper, employers can decide how to set up their workspaces so as to increase the productivity of their employees. Next to that, they can use the statistical models to find the most effective techniques to do so that fit their needs best.
+
+This paper also has implications for the employee as he or she can also learn useful techniques to increase his or her productivity and satisfaction. The employee can apply the conclusions himself if management is lackluster in this area. The effects of applying some of the findings in this paper could improve the productivity on an individual level also which could lead to a higher salary or promotion on consistant results.
+
+The last group of people that could benefit from this paper are students. While this paper mostly targets software engineers, it also mentions that many of these factors could also be beneficial to other demographics. Students could adopt several findings such as the presence of many windows, ergonomic furnuture or talking to other classmates to increase perceived productivity and satisfaction.
 
 
 ------------------
+
+## Threats to the validity
+
+Iets over dat het perceived is vanuit de employee.
+
+Iets over dat het alleen over een doelgroep gaat
+
+Iets over dat het bij Microsoft zo is, hoeft niet overal zo te gaan?
+
+
 
 * 2 paragraphs explaining the overall motivation and goal of the paper.
 * 1-2 paragraphs explaining the methodology 
