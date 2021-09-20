@@ -6,7 +6,29 @@ IEEE Transactions on Software Engineering, 2019
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
-TL;DR: Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
+**TL;DR:** Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
+
+## Methodology
+
+
+---------------------
+
+In this research, three different data gathering actions were taken. Initially, a small survey was conducted to determine a baseline of important factors for productivity and satisfaction of software engineers. Of the 297 respondents that filled out this survey, 19 were interviewed personally to determine what factors were important to them. The relevant parts of the transcript were used to determine more specific important factors and thought processes behind the answers. The answers to both conducted research parts were used to design a survey that was consisted of more specific questions, to conclude clear factors that either helped or harmed productivity and work satisfaction for software engineers.
+
+Two statistical models were generated to to determine important factors for both satisfaction and perceived productivity. These models are based on correlations among survey responses.
+
+
+## Results
+
+-----------------
+
+With their mixed-methods survey the authors uncovered many findings among different teams within Microsoft. Their research pinned down key elements that lead to greater satisfaction and perceived productivity in a business setting. 
+
+Having done a rather large literature study and interviewing many different people within the organizations, the authors of this paper were able to draw some unexpected conclusions as well as create statistical models for satisfaction and perceived productivity which could be used to determine which factors matter most for a certain job discipline and, to some degree, how much they matter. 
+
+-------------------
+
+
 
 * 2 paragraphs explaining the overall motivation and goal of the paper.
 * 1-2 paragraphs explaining the methodology
