@@ -68,6 +68,13 @@ The last group of people that could benefit from this paper are students. While 
 
 ## Threats to the validity
 
+An inherent limitation to this type of study is that causality is not proven, only implied. On top of that, the researchers have used their own wordings of factors or concepts, which make the research prone to misunderstandings in respondents. In addition to the surveys, the researchers did an interview with only 19 respondents out of the 297 respondents on the initial survey. This small sample size may have lead to the researchers coming to factors that may not be as important, or the researchers missing factors that might have been the most important. These factors should measure satisfaction and *perceived* productivity. This measure is not objective, which may lead to certain factors not being as important to objective productivity. What is also important to note, is that this entire study was done within the employees of the company Microsoft. Therefore, the conclusions may have been the result of certain internal factors such as social norms and company culture that are only present within Microsoft. Differences between groups such as teams and project types cannot be determined in the conclusions, as all groups are treated as if they were the same group. Further conclusions that may have not been objectively accurate can be the result of people answering questions in a way that might be viewed favorably by others, instead of answering them more honestly.
+
+For future work, this research can be done again but this time with performance measures in place to actually measure productivity of software engineers rather than them self-reporting their perceived productivity. One should also look in to places of work other than physical, many companies nowadays have a suite of software tools and virtual workspaces for their employees which also significantly impact productivity and satisfaction. The relationship between these tools, virtual and physical workspaces could also be researched which may lead to surprising results. One could also do further research on the individual as certain people work better with a specific working style than others, it would be interesting to know the impact of working styles and personality types on the productivity and satisfaction of software engineers.
+
+
+<!-- ---
+
 Iets over dat het perceived is vanuit de employee.
 
 Iets over dat het alleen over een doelgroep gaat
@@ -86,6 +93,6 @@ Other notes:
 
 * This is just a suggestion. Feel free to deviate from it if you see fit.
 * Use markdown. Feel free to use italics and bold sentences to highlight important parts of the summary.
-* If you want to reference another paper, you have to do it manually. Use, e.g., "as done by Doe et al [1]". Add [1] in the end of the summary.
+* If you want to reference another paper, you have to do it manually. Use, e.g., "as done by Doe et al [1]". Add [1] in the end of the summary. -->
 
 
