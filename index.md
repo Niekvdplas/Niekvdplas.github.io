@@ -6,7 +6,12 @@ IEEE Transactions on Software Engineering, 2019
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
-**TL;DR:**  MAND Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication.
+**TL;DR:**  
+
+
+<!-- MAND Short summary of the paper. This should be a 4-5 sentences paragraph, containing the motivation of the paper, its goal, a bit of its research method, results, and implication. -->
+
+The physical environment in which the software engineer does his work might have an important influence on his productivity and satisfaction. Any employer would want his employees to have a higher productivity and following the results of this paper there are many different ways to achieve this. The authors used a mixed-methods survey and found several key factors to increase (perceived) productivity and satisfaction, i.e. that there is a positive relation between perceived productivity and the ease of booking a conference room.
 
 ------------------
 
