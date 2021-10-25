@@ -144,6 +144,13 @@ https://d1wqtxts1xzle7.cloudfront.net/54026295/improve_performance-with-cover-pa
 An Example of Using Key Performance Indicators for Software Development Process Efficiency Evaluation 
 https://courses.cs.ut.ee/MTAT.03.243/2015_spring/uploads/Main/KPI.pdf
 
+- Schedule adherence: is everything on time?
+- Assignment Content Adherence: ability to deliver full assignment scope by end of assignment.
+- Cost adherence
+- Fault Slip Through: measures the ability to capture faults before making deliveries.
+- Trouble Report Closure Rate: answer TRs within time.
+- Cost per Trouble Report: cost fixing TRs
+
 ---------------------
 
 How have Software Engineering Researchers been Measuring Software Productivity? 
@@ -159,6 +166,12 @@ https://dl.acm.org/doi/pdf/10.1145/3454122.3454124
 
 - developer productivity is necessary not just to improve engineering outcomes, but also to ensure the well-being and satisfaction of developers, as productivity and satisfaction are intricately connected.
 - SPACE captures the most important dimensions of developer productivity.
+- Dimensions are:
+	- Satisfaction & well-being
+	- Performance
+	- Activity
+	- Communication & collaboration
+	- Efficiency & flow
 
 ---------------------------------
 
