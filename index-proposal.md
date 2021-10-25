@@ -110,6 +110,17 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7829407
 
 --------------
 
+Towards an evidence-based theoretical framework on factors influencing the software development productivity
+https://link.springer.com/content/pdf/10.1007/s10664-020-09844-5.pdf
+
+- To evolve and replicate a systematic literature review (SLR) on software development productivity measurement and prediction methods.
+- 
+
+
+
+
+--------------
+
 
 
 Motivation in the workplace to improve the employee performance
@@ -169,6 +180,11 @@ https://link.springer.com/chapter/10.1007/978-1-4842-4221-6_10
 
 -----------------------------------------------
 
+Tool for Measuring Productivity in Software Development Teams (misschien niet een hele goede voor ons research ding)
+https://www.mdpi.com/2078-2489/12/10/396/htm
 
+- Productivity management in companies has become increasingly crucial in an environment of external openness and globalization of business
+- one of the main objectives in software development is to improve productivity, as organizations want to produce more software and, at the same time, reduce development costs.
+- 
 
  -->
