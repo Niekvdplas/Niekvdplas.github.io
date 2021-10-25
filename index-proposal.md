@@ -29,6 +29,7 @@ The introduction should be 4-5 paragraphs, explaining the overall motivation and
 
 ## Research method
 
+<!-- Controlled experiment where one group knows we are measuring their producitivity and one does not. -->
 What you are going to research and how.
 
 * State your research goal. "The goal of this study is to explore the relationship between sunlight and defects in open-source systems".
@@ -97,7 +98,14 @@ but underestimated.
 
 --------------
 
+The Work Life of Developers: Activities, Switches and Perceived Productivity
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7829407
 
+-  All too often, efforts aimed at improving developer productivity are undertaken without knowledge about how developers spend their time at work and how it influences their own perception of productivity. 
+- Researchers have investigated work practices and work fragmentation in detail from various perspectives, specifically the effect of interruptions on fragmentation and how developers organize their work in terms of tasks and working spheres.
+- We did find that many developers consider email, planned meetings and work unrelated browsing as less productive activities, and usually perceive themselves as more productive when they have a higher user input rate as measured by mouse clicks and keystrokes.
+- Developers’ work is highly fragmented, as developers are spending only very short amounts of time (0.3 to 2 minutes) in one activity before switching to another one.
+- Table of multiple findings, such as 'Developers only spend about half their time active on their computer.'.
 
 
 --------------
@@ -127,11 +135,40 @@ https://www.scitepress.org/papers/2017/63144/63144.pdf
 - researchers have not yet reached a consensus on how to properly measure productivity in software engineering.
 - Measurement of productivity is necessary to assess the efficiency of software organizations and improving it can lower cost(Demarco, 1986) and time-to-market (Boehm, 1987) + increases competitivity within market. (Aquino Junior and Meira, 2009) 
 
+-------------------------------------
+
 The SPACE of Developer Productivity
 https://dl.acm.org/doi/pdf/10.1145/3454122.3454124
 
 - developer productivity is necessary not just to improve engineering outcomes, but also to ensure the well-being and satisfaction of developers, as productivity and satisfaction are intricately connected.
 - SPACE captures the most important dimensions of developer productivity.
+
+---------------------------------
+
+Rethinking Productivity in Software Engineering
+https://drops.dagstuhl.de/opus/volltexte/2017/7359/pdf/dagrep_v007_i003_p019_s17102.pdf
+
+- Industry and research are looking into understanding and improving the productivity of individual software developers as well as teams
+- researchers and practitioners with backgrounds in Software Engineering, Human Computer Interaction, and Computer-Supported CollaborativeWork who are interested and working on topics related to the productivity of software developers as well as more general knowledge workers
+- A lot of interesting talks regarding how productivity should be measured
+
+------------------------------------
+Happiness and the productivity of software engineers
+https://link.springer.com/chapter/10.1007/978-1-4842-4221-6_10
+
+- Software companies nowadays often aim for flourishing happiness among developers such as perks.
+- happy developers are **supposedly** more productive and, hopefully, also retained.
+- To access skills and knowledge (which are in term needed to increase productivity), there need to be favorable conditions that allow the human potential to be realized, satisfaction, and thus happiness, is important because it can realize this potential.
+- Happy developers solve problems better (Graziotin, 2014).
+- Happiness and unhappiness influence how we can focus while coding, as put by one participant: “[…] The negative feelings lead to not thinking things through as clearly as I would have if the feeling of frustration was not present.”
+- Unhappiness leads to low motivation for developing software
+- Issue with research on happiness is that it is challenging to control the happiness of people. 
+- Software productivity is still often managaed as if it were about delivering code on an assembly line.
+- Link between happiness and productivity is real and many companies are starting to invest in employees well-being.
+- Happiness and unhappiness bring a plethora of benefits and detriments to software development processes, people, and products.
+
+-----------------------------------------------
+
 
 
  -->
