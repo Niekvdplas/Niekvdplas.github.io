@@ -114,9 +114,15 @@ Towards an evidence-based theoretical framework on factors influencing the softw
 https://link.springer.com/content/pdf/10.1007/s10664-020-09844-5.pdf
 
 - To evolve and replicate a systematic literature review (SLR) on software development productivity measurement and prediction methods.
-- 
+- Productivity has been studied at least for three decades.
+- Despite the number of available empirical studies on software productivity, the researchers have faced issues in employing the produced knowledge and synthesizing a theoretical framework from them.
 
-
+Table 6 summarizes the important findings:
+- In general, as more significant the increments of product’s LOC-based size over time, as higher the positive impact on software development productivity.
+- Newer programming languages positively contribute more to software development productivity than older ones.
+- Communication among developers positively affects and is necessary for software development productivity.
+- Combining the use of methods and techniques regarding verification, validation, testing, or any other related to quality assurance has positive effects on software productivity.
+- The long-term effect of increasing the project duration promotes slight losses in software development productivity.
 
 
 --------------
