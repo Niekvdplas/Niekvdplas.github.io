@@ -53,7 +53,8 @@ Many managers want to improve the time-to-market,
 
 ## Research method
 
-The goal of this study is to find out what the effect of different kind of measurements are on the productivity of both managers and developers. For us to research this, we want to rule out as many variables as possible. Thus, we will approach several companies varying from small(< 5 workers) to large (> 100) which are developing in the same programming language. To measure productivity we will use different Key Performance Indicators(KPIs) for managers and developers.
+The goal of this study is to find out what the effect of different kind of measurements are on the productivity of both managers and developers. For us to research this, we want to rule out as many variables as possible. Thus, we will approach several software development teams varying from small (< 5 employees) to large (> 20 employees) which are developing in the same programming language. To measure productivity we will use different Key Performance Indicators(KPIs) for managers and developers.
+
 
 During our study, we have several research questions which we would want answered:
 * What is the effect on managers/developers when they know that developer productivity is objectively being measured?
