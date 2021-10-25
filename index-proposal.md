@@ -39,6 +39,8 @@ Many managers want to improve the time-to-market,
 
 ## Background and Related Work 
 
+
+
 "Show off" your knowledge of the area; it gives all the background that the reader needs to understand your work; it gives an overview of the entire research area around the topic
 
 * Write a background and/or related work selections
@@ -51,7 +53,23 @@ Many managers want to improve the time-to-market,
 
 ## Research method
 
-<!-- Controlled experiment where one group knows we are measuring their producitivity and one does not. -->
+The goal of this study is to find out what the effect of different kind of measurements are on the productivity of both managers and developers. For us to research this, we want to rule out as many variables as possible. Thus, we will approach several companies varying from small(< 5 workers) to large (> 100) which are developing in the same programming language. To measure productivity we will use different Key Performance Indicators(KPIs) for managers and developers.
+
+During our study, we have several research questions which we would want answered:
+* What is the effect on managers/developers when they know that developer productivity is objectively being measured?
+* Does knowing you are being objectively measured give developers an incentive to be more productive?
+* Does productivity measurements give managers the tools to optimize their team?
+* Is there a difference between the developer's perceived productivity and their actual productivity? 
+
+To find out what the effect is on both managers and developers when they know that productivity is objectively being measured we will exectute the experiment in a controlled environment where half of the pool knows they are being measured and receive weekly updates through graphs and tables of their productivity and half do not. This way we can look at what happens to the performance indicators throughout the weeks. With this controlled experiment we can immediately answer our second research question since we can determine whether or not the thought of being actively measured through these KPIs incentivizes developers to be more productive.
+
+For the third research question, we will analyse the KPIs of the managers and determine whether there is a statistical difference between the two groups in the experiment. Next to that, we will send out a survey which they all have to fill out which can then be analyzed by us to determine whether the perceived productivity of the managers also was different from actual productivity.
+
+Our fourth research question will also be answered through a more extensive survey at the end of the study. All developers will have to fill this out and with this data we will be able to determine if there exists a statistical difference between perceived and objectively measured productivity.
+
+**ONLY HAVE TO NAME STATISTICAL TESTS HERE**
+
+
 What you are going to research and how.
 
 * State your research goal. "The goal of this study is to explore the relationship between sunlight and defects in open-source systems".
@@ -67,6 +85,19 @@ What you are going to research and how.
 How to run this study?
 
 * How you would you then run this study?
+
+## References
+[1]: Ko A.J. (2019) _Why We Should Not Measure Productivity_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_3
+[2]: Oliveira, E., Fernandes, E., Steinmacher, I. et al. _Code and commit metrics of developer productivity: a study on team leaders perceptions_. Empir Software Eng 25, 2519–2549 (2020). https://doi.org/10.1007/s10664-020-09820-z
+[3]: Meyer, André & Barton, Laura & Murphy, Gail & Zimmermann, Thomas & Fritz, Thomas. (2017). _The Work Life of Developers: Activities, Switches and Perceived Productivity_. IEEE Transactions on Software Engineering. PP. 1-1. 10.1109/TSE.2017.2656886. 
+[4]: Chapetta, W.A., Travassos, G.H. _Towards an evidence-based theoretical framework on factors influencing the software development productivity_. Empir Software Eng 25, 3501–3543 (2020). https://doi.org/10.1007/s10664-020-09844-5
+[5]: Girdwichai, Luedech & Sriviboon, Chutikarn. (2020). _Employee motivation and performance: do the work environment and the training matter?_. Journal of Security and Sustainability Issues. 42-54. 10.9770/jssi.2020.9.J(4). 
+[6]: Antolić, Ž. (2008). _An Example of Using Key Performance Indicators for Software Development Process Efficiency Evaluation_. 
+[7]: Oliveira, Edson & Viana, Davi & Cristo, Marco & Conte, Tayana. (2017). _How have Software Engineering Researchers been Measuring Software Productivity? - A Systematic Mapping Study_. 76-87. 10.5220/0006314400760087.
+[8]: Forsgren, Nicole & Storey, Margaret-Anne & Maddila, Chandra & Zimmermann, Thomas & Houck, Brian & Butler, Jenna. (2021). _The SPACE of Developer Productivity: There's more to it than you think_. Queue. 19. 20-48. 10.1145/3454122.3454124.
+[9]: Sadowski, Caitlin & Zimmermann, Thomas. (2019). _Rethinking Productivity in Software Engineering_. 10.1007/978-1-4842-4221-6.
+[10]: Graziotin D., Fagerholm F. (2019) _Happiness and the Productivity of Software Engineers_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_10.
+[11]: Mota, J.S.; Tives, H.A.; Canedo, E.D. _Tool for Measuring Productivity in Software Development Teams_. Information 2021, 12, 396. https://doi.org/10.3390/info12100396.
 
 <!-- Links
 
