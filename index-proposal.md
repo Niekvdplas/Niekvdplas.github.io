@@ -15,8 +15,6 @@ The introduction should be 4-5 paragraphs, explaining the overall motivation and
 * A summary of the research method
 
 
-
-
 ## Background and Related Work 
 
 "Show off" your knowledge of the area; it gives all the background that the reader needs to understand your work; it gives an overview of the entire research area around the topic
@@ -63,8 +61,6 @@ https://link.springer.com/chapter/10.1007/978-1-4842-4221-6_3
 
 - Improving productivity requires explaining the factors that affect it, but that requires qualitative insights into team behavior.
 - Teams are always changing, making it even harder to get insights about team behavior through data.
-- Managers are best positioned to get these qualitative insights by interacting with their team.
-- Many studies neglecting the analysis on the developer level.
 
 
 --------------
@@ -78,8 +74,35 @@ https://link.springer.com/content/pdf/10.1007/s10664-020-09820-z.pdf
 - Team leaders’ perceptions are usually the primary source of information when project managers make decisions about development teams.
 - Perceptions are subjective and biased. Thus, a systematic productivity assessment could help team leaders in their work.
 
+- Managers are best positioned to get these qualitative insights by interacting with their team.
+- Many studies neglecting the analysis on the developer level.
+- Uses characteristics in (1) source code and (2) commits.
+
+Metrics (source code):
+- Source Lines of Code by Time (SLOC/Time)
+- Halstead Effort by Time (HalsteadEff/Time): source code complexity
+- Code Owned by Time (CodeOwned/Time): if the highest percentage of lines is a developer's, then the developer is the owner for this metric.
+
+Metrics (commits):
+- Commits Performed by Time (Commits/Time)
+- Committed Source Lines of Code by Time (CommittedSLOC/Time) 
+- Committed Characters by Time (CommittedChars/ Time)
+
+Results:
+- Assessing developer productivity via commit-based metrics is tricky. The eight interviewed leaders are unanimous in stating that commit-based metrics strongly dependent on developers’ commit habits; thus, these metrics are quite unreliable. Particularly, team leaders expressed their concern about being unfair with developers who commit less but produce more complex program features than other developers. Therefore, we have learned that using commit-based metrics to assess developer productivity is tricky in practice.
+- Code ownership as a key to assessing developer productivity. Our results were encouraging for code-based metrics: all code-based metrics are strongly correlated with team leaders’ perceptions of developer productivity.
+- To what extent code-based and commit-based can complement the team leaders’ perceptions of their developer’ productivity? In summary, our results suggest that productivity metrics, especially code-based metrics, can complement the subjective perception of team leaders. Important results: revealing aspects of developer productivity not previously known, boost the fairness of productivity assessment, and acknowledge those developers that are productive
+but underestimated.
+
 
 --------------
+
+
+
+
+--------------
+
+
 
 Motivation in the workplace to improve the employee performance
 https://d1wqtxts1xzle7.cloudfront.net/54026295/improve_performance-with-cover-page-v2.pdf?Expires=1635166560&Signature=GEiJNzzVC-ms0y4j-ge2Cp4KrNZTrX9I5Vrmi0phN7zAahglM6epAiaTaLoGGNIp9l1qExN5yi-ZyXgyQPiCy8JdmgkcQAhRba1a~ABB-ONwRSSwt60Md3~h0nQFhjtVMsHK~mkwwiLotK5ZLz5STAvqRkEJXlPKjVJ77l9Vn-v-aGySE-gqkX2RczNQ5S-i2rzNaCxM~TXDzXRSDfW6b1EnZm6vBlcNXpTAV09z9ng0y4J3oWNl8bpKJSsbQtHqquYHoM875QEHZLdHKppaZpK4z98Y1RAToDKkuHd7NzgRvqSCfdHsMUymyooH5IwzSqwehn7maOVnqepgkTr7pA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
@@ -103,6 +126,12 @@ https://www.scitepress.org/papers/2017/63144/63144.pdf
 
 - researchers have not yet reached a consensus on how to properly measure productivity in software engineering.
 - Measurement of productivity is necessary to assess the efficiency of software organizations and improving it can lower cost(Demarco, 1986) and time-to-market (Boehm, 1987) + increases competitivity within market. (Aquino Junior and Meira, 2009) 
+
+The SPACE of Developer Productivity
+https://dl.acm.org/doi/pdf/10.1145/3454122.3454124
+
+- developer productivity is necessary not just to improve engineering outcomes, but also to ensure the well-being and satisfaction of developers, as productivity and satisfaction are intricately connected.
+- SPACE captures the most important dimensions of developer productivity.
 
 
  -->
