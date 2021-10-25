@@ -6,6 +6,27 @@ TL;DR: Short summary of the research idea. This should be a 4-5 sentences paragr
 
 ## Introduction
 
+One of the most important tasks managers or product owners have is to improve productivity of their employees. Some of these managers use several metrics to track, and give feedback to, their developers so they know whether they are performing well or in what areas they can improve. Most still lack such a feedback system and rely on the developer reflecting back on his own _perceived_ productivity. 
+
+Many factors impact the productivity of a developer. Oliveira *et al* found that certain code characteristics correlated with the productivity of an employee as observed by the manager. These metrics could be measured automatically and given as feedback to both the employees and the managers. 
+
+The effect this would have on the employees could go both ways. The employees could feel an incentive to work harder, as their productivity is being measured and they want the company to think that they are delivering good work. However, the additional surveillance could put more stress on the employees, causing them to be more unhappy, which could reduce their problem solving abilities (Graziotin, 2014).
+
+Managers could use this information to keep an eye on certain employees that might have a reason to be less productive. They could then optimize the workflow of these employees to improve their productivity. They could also look at the most productive employees and see what they are doing right, to streamline the workflow of the team.
+
+Our research question follows from these hypotheses and is as follows: *"Does objectively measuring productivity of software developers and giving this feedback to both the developers and managers have a positive impact on team productivity?"* 
+
+
+To answer this, we will assess different businesses which all use the same programming language in a controlled experiment where one group gets weekly feedback on their productivity and have a survey at the end of our research period to answer our research questions.
+<!-- 
+- Main research question: what is the effect on managers/developers when 
+they know that developer performance is objectively being measured?
+- Does it give developers an incentive to be more productive?
+- Does it give managers the tools to optimize their team?
+- Is there a difference between the developer's perceived productivity and their actual productivity? -->
+
+
+
 The introduction should be 4-5 paragraphs, explaining the overall motivation and goal of the paper. 
 
 * Explain the broader topic of research
@@ -14,6 +35,7 @@ The introduction should be 4-5 paragraphs, explaining the overall motivation and
 * Put your main research question
 * A summary of the research method
 
+Many managers want to improve the time-to-market, 
 
 ## Background and Related Work 
 
