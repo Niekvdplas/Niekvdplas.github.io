@@ -8,7 +8,7 @@ TL;DR: Short summary of the research idea. This should be a 4-5 sentences paragr
 
 One of the most important tasks managers or product owners have is to improve productivity of their employees. Some of these managers use several metrics to track, and give feedback to, their developers so they know whether they are performing well or in what areas they can improve. Most still lack such a feedback system and rely on the developer reflecting back on his own _perceived_ productivity. 
 
-Many factors impact the productivity of a developer. Oliveira *et al* found that certain code characteristics correlated with the productivity of an employee as observed by the manager. These metrics could be measured automatically and given as feedback to both the employees and the managers. 
+Many factors impact the productivity of a developer. Oliveira *et al.* found that certain code characteristics correlated with the productivity of an employee as observed by the manager. These metrics could be measured automatically and given as feedback to both the employees and the managers. 
 
 The effect this would have on the employees could go both ways. The employees could feel an incentive to work harder, as their productivity is being measured and they want the company to think that they are delivering good work. However, the additional surveillance could put more stress on the employees, causing them to be more unhappy, which could reduce their problem solving abilities (Graziotin, 2014).
 
@@ -16,14 +16,14 @@ Managers could use this information to keep an eye on certain employees that mig
 
 Our research question follows from these hypotheses and is as follows: *"Does objectively measuring productivity of software developers and giving this feedback to both the developers and managers have a positive impact on team productivity?"* 
 
+<!-- 
 
 To answer this, we will assess different businesses which all use the same programming language in a controlled experiment where one group gets weekly feedback on their productivity and have a survey at the end of our research period to answer our research questions.
-<!-- 
 - Main research question: what is the effect on managers/developers when 
 they know that developer performance is objectively being measured?
 - Does it give developers an incentive to be more productive?
 - Does it give managers the tools to optimize their team?
-- Is there a difference between the developer's perceived productivity and their actual productivity? -->
+- Is there a difference between the developer's perceived productivity and their actual productivity?
 
 
 
@@ -33,15 +33,50 @@ The introduction should be 4-5 paragraphs, explaining the overall motivation and
 * Explain the research gap: what are we missing?
 * YOUR RESEARCH, YOUR GENIUS IDEA
 * Put your main research question
-* A summary of the research method
+* A summary of the research method -->
 
-Many managers want to improve the time-to-market, 
 
 ## Background and Related Work 
+Efficiency optimization is important for businesses to increase revenue and reduce time-to-market. Optimizing software development is important for software departments of these companies. Measuring productivity and taking steps to improve said productivity seems to be the obvious solution for optimization, but how is this done? 
+
+There are both advantages and disadvantages to measuring software developer's productivity<sup>[[1]](#1)</sup>. Ko mentions that measuring productivity might bring a lot of negative unintended consequences with it. For example, more defects might ship to decrease time-to-market, due to unadequate testing. Additionally, qualitative and quantitative data on productivity may not be correlated. Too many details needs to be taken into account, such as productivity due to changes in the team, which makes interpretation and drawing conclusions from said details vague. Ko states that managers should be the main measurers for productivity.
+
+Oliveira _et al._ have measured the correlation of objective code characteristics, such as lines f code produced by a developer, with the qualitative assessment of managers<sup>[[2]](#2)</sup>. Correlating commit behavior with manager assessment seemed to be tricky, but certain code characteristics seemed to correlate well with productivity. The code characteristics were _'Source Lines of Code by Time'_(SLOC/Time), _'Halstead Effort by Time'_(HE/Time) - which is a measure of source code complexity - and _Code Owned by Time_(CO/Time).
+
+Meyer _et al._ state that efforts aimed at improving developer productivity are undertaken without knowledge about how developers spend their time at work and how it influences their own perception of productivity<sup>[[3]](#3)</sup>. Meyer _et al._ give insight into developer behavior and time spending, which made them draw the conclusion that productivity and the factors that influence it are highly individual.
+
+Chapetta _et al._ made an effort to characterize software development productivity and to understand the influence of several factos on the productivity of software developers<sup>[[4]](#4)</sup>. In their study they proposed a framework, comprising of multiple factors (25) and relationships (33) obtained from empirical evidence based on technical literature over the last 30 years, which helps both practitioners and researchers with observing, deciding and controlling the productivity within software development teams.
+
+Ganta proposes that the driver behind productivity is either intrinsic or extrinsic motivation and a good feeling associated with their work<sup>[[5]](#5)</sup>. The link between motivation and feeling good about one's job is complex and a clear action plan cannot be distinguished easily. Extrinsic motivation might be bonusses after delivering good work, while intrinsic motivation and feeling good about one's job might have more to do with the impact of the actual work or the relation with clients and co-workers. What motivates an employee is personal to the employee, so managers need to take this into account when they want to tackle productivity.
+
+In addition to developers, we need quantitative measures to determine whether the managers and their associated business are doing their tasks correctly. Antolić gives an overview of Key Performance Indicators that can be used to evaluate software development process efficiency<sup>[[6]](#6)</sup>. These key performance indicators are as follows.
+* Schedule adherence: is everything on time, according to the planning?
+* Assignment Content Adherence: ability to deliver the project as agreed at the end of the process.
+* Cost Adherence: how well do the development costs fit into the scope of the project?
+* Fault Slip Through: how many faults are captured before delivery?
+* Trouble Report Closure Rate: how many trouble reports are closed on time?
+* Cost per Trouble Report: measures the maintenance costs in fixing trouble reports.
+
+It is important to take a critical look at how productivity has been measured in the past. Oliveira _et al._ have investigated and made an effort to get a better understanding on how productivity should be measured<sup>[[7]](#7)</sup>. They did a systematic mapping study on publications regarding software productivity and noting down all the different measurements that researchers are using to measure producitivity. They noticed that single ratio metrics have a tendency to be used by researchers eventhough there is not any conscensus that this is the best method.
+
+Forgsen _et al._ state that there are dimensions that can be optimized to increase software developer productivity<sup>[[8]](#8)</sup>. The authors have created a framework called the 'SPACE' framework that can be used as a reference to investigate these dimensions in software development companies and teams. The dimensions that should be taken into account and optimized for to ensure developer productivity are as follows.
+* Satisfaction and well-being: it is possible that satisfaction could serve as a leading indicator for productivity. Retention of developers could be an indicator of this metric.
+* Performance: a measure about code review velocity, customer satisfaction and reliability.
+* Activity: how many actions or outputs are performed by the developer?
+* Communication and collaboration: a measure of how people talk and work together. Could be measure by code review quality or thoughtfulness, knowledge sharing or quality of meetings.
+* Efficiency and flow: doing work with minimal delays or interruptions. Could be measured by code review timing, productivity perception and lack of interruptions.
 
 
+Sadowski _et al._ collected all the information of previous studies by software engineering though leaders into one bundle of ideas and challenges<sup>[[9]](#9)</sup>. One such chapter in this book is that of Graziotin _et al._ who provided an overview of their studies on happiness of software developers as well as the correlation with productivity<sup>[[10]](#10)</sup>. They set of by defining happiness and how to measure it and following up with multiple analyses on different aspects regarding happiness and software development, they especially focus on a few consequences of happiness and unhappiness:
+* Cognitive performance: How efficiently information is processed
+* Flow: How long-lasting states of intense attention and concentration are without interruptions.
+* Motivation and Withdrawal
 
-"Show off" your knowledge of the area; it gives all the background that the reader needs to understand your work; it gives an overview of the entire research area around the topic
+They conclude with several experiments and list potential impacts of happiness on both software development and other outcomes. They firmly state that through their experiments they have proved that there exists a link between happiness and productivity in software development and mention that the future will need more research on the topic as an increasing number of people will work with digital product and are performing tasks that can be narrowed down to software development.
+
+Mota _et al._ emphasize the importance of improving software development productivity in an environment of external openness and globalization of business<sup>[[11]](#11)</sup>. They developed a web system to support software development teams in measuring their productivity and did a case study to determine its effectiveness. The effectiveness on two software development teams seemed to be positive.
+
+<!--"Show off" your knowledge of the area; it gives all the background that the reader needs to understand your work; it gives an overview of the entire research area around the topic
 
 * Write a background and/or related work selections
 	* Background: Background knowledge that the reader needs
@@ -49,20 +84,22 @@ Many managers want to improve the time-to-market,
 
 * One paragraph per paper. Some sentences explaining what the paper is about. Some sentences explaining the methodology and results of the paper. Maybe limitations or future work. Maybe some comparison with the work you are doing.
 
-* At least 10 papers in the related work section. Do not go over 15 papers.
+* At least 10 papers in the related work section. Do not go over 15 papers.-->
 
 ## Research method
+The goal of this study is to find out what the effect of different kind of measurements are on the productivity of both managers and developers. For us to research this, we want to rule out as many variables as possible. Thus, we will approach several software development teams varying from small (<5 employees) to large (>20 employees), who are developing in the same programming language. To measure productivity we will use different Key Performance Indicators (KPIs) for managers and developers.
 
-The goal of this study is to find out what the effect of different kind of measurements are on the productivity of both managers and developers. For us to research this, we want to rule out as many variables as possible. Thus, we will approach several software development teams varying from small (< 5 employees) to large (> 20 employees) which are developing in the same programming language. To measure productivity we will use different Key Performance Indicators(KPIs) for managers and developers.
+We have identified several research questions that we want to answer:
 
+_RQ1_: What is the effect on managers/developers when they know that developer productivity is objectively being measured?
 
-During our study, we have several research questions which we would want answered:
-* What is the effect on managers/developers when they know that developer productivity is objectively being measured?
-* Does knowing you are being objectively measured give developers an incentive to be more productive?
-* Does productivity measurements give managers the tools to optimize their team?
-* Is there a difference between the developer's perceived productivity and their actual productivity? 
+_RQ2_: Does knowing you are being objectively measured give developers an incentive to be more productive?
 
-To find out what the effect is on both managers and developers when they know that productivity is objectively being measured we will exectute the experiment in a controlled environment where half of the pool knows they are being measured and receive weekly updates through graphs and tables of their productivity and half do not. This way we can look at what happens to the performance indicators throughout the weeks. With this controlled experiment we can immediately answer our second research question since we can determine whether or not the thought of being actively measured through these KPIs incentivizes developers to be more productive.
+_RQ3_: Does productivity measurements give managers the tools to optimize the productivity of their team?
+
+_RQ4_: Is there a difference between the developer's perceived productivity and their actual productivity? 
+
+To find out what the effect is on both managers and developers when they know that productivity is objectively being measured we will exectute the experiment in a controlled environment where half of the software development teams know that they are being measured. They will receive weekly updates of their productivity while the other half of software development teams do not. With this controlled experiment we can immediately answer our second research question since we can determine whether or not the thought of being actively measured resulting in KPI incentivize developers to be more productive.
 
 For the third research question, we will analyse the KPIs of the managers and determine whether there is a statistical difference between the two groups in the experiment. Next to that, we will send out a survey which they all have to fill out which can then be analyzed by us to determine whether the perceived productivity of the managers also was different from actual productivity.
 
@@ -71,7 +108,7 @@ Our fourth research question will also be answered through a more extensive surv
 **ONLY HAVE TO NAME STATISTICAL TESTS HERE**
 
 
-What you are going to research and how.
+<!-- What you are going to research and how.
 
 * State your research goal. "The goal of this study is to explore the relationship between sunlight and defects in open-source systems".
 * What method are you doing to use? 
@@ -79,7 +116,7 @@ What you are going to research and how.
 * For each RQ, describe the method you are going to use to answer the RQ
 * Explain any datasets you are going to reuse or create. Why is this dataset the right one for your project?
 * Explain any (human) subjects you are going to reuse or create. How are you going to find them? Why are they the right people to take part of your study?
-* Explain any data analysis techniques you plan to use. Are you going to use some stastistical test? Which one? Why?
+* Explain any data analysis techniques you plan to use. Are you going to use some stastistical test? Which one? Why? -->
 
 ## Execution plan
 
@@ -88,17 +125,28 @@ How to run this study?
 * How you would you then run this study?
 
 ## References
-[1]: Ko A.J. (2019) _Why We Should Not Measure Productivity_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_3
-[2]: Oliveira, E., Fernandes, E., Steinmacher, I. et al. _Code and commit metrics of developer productivity: a study on team leaders perceptions_. Empir Software Eng 25, 2519–2549 (2020). https://doi.org/10.1007/s10664-020-09820-z
-[3]: Meyer, André & Barton, Laura & Murphy, Gail & Zimmermann, Thomas & Fritz, Thomas. (2017). _The Work Life of Developers: Activities, Switches and Perceived Productivity_. IEEE Transactions on Software Engineering. PP. 1-1. 10.1109/TSE.2017.2656886. 
-[4]: Chapetta, W.A., Travassos, G.H. _Towards an evidence-based theoretical framework on factors influencing the software development productivity_. Empir Software Eng 25, 3501–3543 (2020). https://doi.org/10.1007/s10664-020-09844-5
-[5]: Girdwichai, Luedech & Sriviboon, Chutikarn. (2020). _Employee motivation and performance: do the work environment and the training matter?_. Journal of Security and Sustainability Issues. 42-54. 10.9770/jssi.2020.9.J(4). 
-[6]: Antolić, Ž. (2008). _An Example of Using Key Performance Indicators for Software Development Process Efficiency Evaluation_. 
-[7]: Oliveira, Edson & Viana, Davi & Cristo, Marco & Conte, Tayana. (2017). _How have Software Engineering Researchers been Measuring Software Productivity? - A Systematic Mapping Study_. 76-87. 10.5220/0006314400760087.
-[8]: Forsgren, Nicole & Storey, Margaret-Anne & Maddila, Chandra & Zimmermann, Thomas & Houck, Brian & Butler, Jenna. (2021). _The SPACE of Developer Productivity: There's more to it than you think_. Queue. 19. 20-48. 10.1145/3454122.3454124.
-[9]: Sadowski, Caitlin & Zimmermann, Thomas. (2019). _Rethinking Productivity in Software Engineering_. 10.1007/978-1-4842-4221-6.
-[10]: Graziotin D., Fagerholm F. (2019) _Happiness and the Productivity of Software Engineers_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_10.
-[11]: Mota, J.S.; Tives, H.A.; Canedo, E.D. _Tool for Measuring Productivity in Software Development Teams_. Information 2021, 12, 396. https://doi.org/10.3390/info12100396.
+
+<a id="1">[1]</a>: Ko A.J. (2019) _Why We Should Not Measure Productivity_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_3
+
+<a id="2">[2]</a>: Oliveira, E., Fernandes, E., Steinmacher, I. et al.. _Code and commit metrics of developer productivity: a study on team leaders perceptions_. Empir Software Eng 25, 2519–2549 (2020). https://doi.org/10.1007/s10664-020-09820-z
+
+<a id="3">[3]</a>: Meyer, André & Barton, Laura & Murphy, Gail & Zimmermann, Thomas & Fritz, Thomas. (2017). _The Work Life of Developers: Activities, Switches and Perceived Productivity_. IEEE Transactions on Software Engineering. PP. 1-1. 10.1109/TSE.2017.2656886. 
+
+<a id="4">[4]</a>: Chapetta, W.A., Travassos, G.H. _Towards an evidence-based theoretical framework on factors influencing the software development productivity_. Empir Software Eng 25, 3501–3543 (2020). https://doi.org/10.1007/s10664-020-09844-5
+
+<a id="5">[5]</a>: Girdwichai, Luedech & Sriviboon, Chutikarn. (2020). _Employee motivation and performance: do the work environment and the training matter?_. Journal of Security and Sustainability Issues. 42-54. 10.9770/jssi.2020.9.J(4). 
+
+<a id="6">[6]</a>: Antolić, Ž. (2008). _An Example of Using Key Performance Indicators for Software Development Process Efficiency Evaluation_. 
+
+<a id="7">[7]</a>: Oliveira, Edson & Viana, Davi & Cristo, Marco & Conte, Tayana. (2017). _How have Software Engineering Researchers been Measuring Software Productivity? - A Systematic Mapping Study_. 76-87. 10.5220/0006314400760087.
+
+<a id="8">[8]</a>: Forsgren, Nicole & Storey, Margaret-Anne & Maddila, Chandra & Zimmermann, Thomas & Houck, Brian & Butler, Jenna. (2021). _The SPACE of Developer Productivity: There's more to it than you think_. Queue. 19. 20-48. 10.1145/3454122.3454124.
+
+<a id="9">[9]</a>: Sadowski, Caitlin & Zimmermann, Thomas. (2019). _Rethinking Productivity in Software Engineering_. 10.1007/978-1-4842-4221-6.
+
+<a id="10">[10]</a>: Graziotin D., Fagerholm F. (2019) _Happiness and the Productivity of Software Engineers_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_10.
+
+<a id="11">[11]</a>: Mota, J.S.; Tives, H.A.; Canedo, E.D. _Tool for Measuring Productivity in Software Development Teams_. Information 2021, 12, 396. https://doi.org/10.3390/info12100396.
 
 <!-- Links
 
