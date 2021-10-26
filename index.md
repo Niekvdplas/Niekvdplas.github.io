@@ -1,4 +1,4 @@
-# Research title
+# Productivity in Software Development
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
@@ -122,7 +122,19 @@ Our fourth research question will be answered through a more extensive follow-up
 
 <!-- First of all, we would look at related work and determine what other research deem to be the most important factors for objective productivity. Out of this pool of Key Performance Indicators (KPIs) we will choose the most relevant ones for our research.  -->
 
-Next, we will contact several software development teams in the Netherlands of which the team members are all based in the Netherlands as to avoid cultural differences within the team. 
+We will contact several software development teams in the Netherlands of which the team members are all based in the Netherlands as to avoid cultural differences within the team. These will be of small size (<5 employees) and of a large size (>20 employees). We will contact them that we have the intention of improving their productivity and whether they would like to take part in academic research. We will only mention to half of the teams that their performance is being tracked and that they will get weekly feedback.
+
+For the developers, will develop a tool that tracks the three performance metrics of source code as described by Oliveira _et al._<sup>[[2]](#2)</sup>:
+* Source Lines of Code by Time
+* Halstead Effort by Time
+* Code Owned by Time
+
+This tool will integrate with GitHub. All developers in the teams will be tracked.
+
+To determine business metrics and whether the managing improves with access to this data, 6 Key Performance Indicators as described by Antolić<sup>[[6]](#6)</sup> will be measured at the start of the study. These indicators are:
+
+
+
 
 <!-- How to run this study?
 
