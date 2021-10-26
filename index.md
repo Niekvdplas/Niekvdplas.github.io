@@ -1,4 +1,4 @@
-# Productivity in Software Development
+# Integrated Measuring of Productivity in Software Development
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
@@ -154,7 +154,7 @@ For 6 weeks, the developers will be tracked, while half of the groups receive we
 
 After these 6 weeks, we will send a follow-up survey that is identical to the first survey. The semi-objective productivity and perceived productivity of developers will be measured in this way. The managers will assess the KPIs and the perceived productivity of the employees.
 
-The surveys will be tested by assessing differences in responses between questions. Significant changes between KPIs of software teams will be detected using a 2-2-paired t-test, since this data is numerical. The differences between question responses on likert scale questions will be also be analyzed using a 2-2-paired t-test, since the Central Limit Theorem states that we can use the average of the responses on each question to determine the means[[12]](#12). All these tests will be performed to determine whether a statistically significant difference exists between objective productivity of developers, perceived productivity of developers, managing performance of managers and differences in these dimensions between small and large businesses.
+The surveys will be tested by assessing differences in responses between questions. Significant changes between KPIs of software teams will be detected using a 2-paired t-test, since this data is numerical. The differences between question responses on likert scale questions will be also be analyzed using a 2-paired t-test, since the Central Limit Theorem states that we can use the average of the responses on each question to determine the means[[12]](#12). All these tests will be performed to determine whether a statistically significant difference exists between objective productivity of developers, perceived productivity of developers, managing performance of managers and differences in these dimensions between small and large businesses.
 
 
 <!-- How to run this study?
