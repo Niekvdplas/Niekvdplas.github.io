@@ -99,13 +99,18 @@ _RQ3_: Does productivity measurements give managers the tools to optimize the pr
 
 _RQ4_: Is there a difference between the developer's perceived productivity and their actual productivity? 
 
-To find out what the effect is on both managers and developers when they know that productivity is objectively being measured we will execute the experiment in a controlled environment where half of the software development teams know that they are being measured. They will receive weekly updates of their productivity while the other half of software development teams do not. With this controlled experiment we can immediately answer our second research question since we can determine whether or not the thought of being actively measured incentivizes developers to be more productive.
+To find out what the effect is on both managers and developers when they know that productivity is objectively being measured we will execute the experiment in a controlled environment where half of the software development teams know that they are being measured. They will receive weekly updates of their productivity for 6 weeks while the other half of software development teams do not. With this controlled experiment we can immediately answer our second research question since we can determine whether or not the thought of being actively measured incentivizes developers to be more productive. To analyze both these research questions we will do statistical analysis in the form of a 2-paired t-test since we compare two 2-paired groups. 
 
-For the third research question, we will analyse the KPIs of the managers and determine whether there is a statistical difference between the two groups in the experiment. In addition to that, we will send out a survey which they all have to fill out which will then be analyzed to determine whether the perceived productivity of the managers is also was different from actual productivity.
+For the third research question, we will analyse the KPIs of the managers and determine whether there is a statistical difference between the two groups in the experiment. In addition to that, we will send out a survey which they all have to fill out which will then be analyzed to determine whether there are changes in perceived productivity of developers by the managers or whether there are changes in the mentioned KPIs. Next to the survey, we will again perform a 2-paired t-test here because we would like to know whether the weekly feedback half of the teams has makes a difference on the productivity on the team overall.
 
-Our fourth research question will be answered through a more extensive follow-up survey at the end of the study. All developers will fill out this survey and the data acquired we will be able to determine whether there exists a statistical difference between perceived and objectively measured productivity.
+Our fourth research question will be answered through a follow-up survey at the end of the study. All developers will fill out this survey and with the data acquired we will be able to determine whether there exists a statistical difference between perceived and objectively measured productivity. We will determine this with the use of a 2-paired t-test because also here we deal with two paired groups. 
 
-**ONLY HAVE TO NAME STATISTICAL TESTS HERE**
+<!-- 
+1e rq = 2-paired t-test
+2e rq = 2-paired t-test
+3e = survey + 2-paired t-test
+4e = survey + 2-paired t-test
+ -->
 
 
 <!-- What you are going to research and how.
@@ -122,18 +127,30 @@ Our fourth research question will be answered through a more extensive follow-up
 
 <!-- First of all, we would look at related work and determine what other research deem to be the most important factors for objective productivity. Out of this pool of Key Performance Indicators (KPIs) we will choose the most relevant ones for our research.  -->
 
-We will contact several software development teams in the Netherlands of which the team members are all based in the Netherlands as to avoid cultural differences within the team. These will be of small size (<5 employees) and of a large size (>20 employees). We will contact them that we have the intention of improving their productivity and whether they would like to take part in academic research. We will only mention to half of the teams that their performance is being tracked and that they will get weekly feedback.
+We will contact several software development teams in the Netherlands of which the team members are all based in the Netherlands as to avoid cultural differences within the team. These will be of small size (<5 employees) and of a large size (>20 employees). We will contact them that we have the intention of improving their productivity and whether they would like to take part in academic research. The software projects in this study will mostly use the same programming language, as differences in languages measured with our characteristics could lead to bias. We will only mention to half of the teams that their performance is being tracked and that they will get weekly feedback.
 
 For the developers, will develop a tool that tracks the three performance metrics of source code as described by Oliveira _et al._<sup>[[2]](#2)</sup>:
 * Source Lines of Code by Time
 * Halstead Effort by Time
 * Code Owned by Time
 
-This tool will integrate with GitHub. All developers in the teams will be tracked.
+This tool will integrate with GitHub. All developers in the teams will be tracked. Developers will receive a survey assessing their own productivity.
 
 To determine business metrics and whether the managing improves with access to this data, 6 Key Performance Indicators as described by Antolić<sup>[[6]](#6)</sup> will be measured at the start of the study. These indicators are:
+* Schedule adherence: is everything on time, according to the planning?
+* Assignment Content Adherence: ability to deliver the project as agreed at the end of the process.
+* Cost Adherence: how well do the development costs fit into the scope of the project?
+* Fault Slip Through: how many faults are captured before delivery?
+* Trouble Report Closure Rate: how many trouble reports are closed on time?
+* Cost per Trouble Report: measures the maintenance costs in fixing trouble reports.
 
+Since these KPIs involve rich data, we will use a survey with likert scale questions to determine any significant changes before and after the study. The managers will also assess the perceived productivity of their individual team members.
 
+For 6 weeks, the developers will be tracked, while half of the groups receive weekly feedback. The managers will receive the feedback on all of the developers in their teams. 
+
+After these 6 weeks, we will send a follow-up survey that is identical to the first survey. The semi-objective productivity and perceived productivity of developers will be measured in this way. The managers will assess the KPIs and the perceived productivity of the employees.
+
+The surveys will be tested by assessing differences in responses between questions. Significant changes between KPIs of software teams will be detected using a 2-2-paired t-test, since this data is numerical. The differences between question responses on likert scale questions will be also be analyzed using a 2-2-paired t-test, since the Central Limit Theorem states that we can use the average of the responses on each question to determine the means[[12]](#12). All these tests will be performed to determine whether a statistically significant difference exists between objective productivity of developers, perceived productivity of developers, managing performance of managers and differences in these dimensions between small and large businesses.
 
 
 <!-- How to run this study?
@@ -163,6 +180,8 @@ To determine business metrics and whether the managing improves with access to t
 <a id="10">[10]</a>: Graziotin D., Fagerholm F. (2019) _Happiness and the Productivity of Software Engineers_. In: Sadowski C., Zimmermann T. (eds) Rethinking Productivity in Software Engineering. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-4221-6_10.
 
 <a id="11">[11]</a>: Mota, J.S.; Tives, H.A.; Canedo, E.D. _Tool for Measuring Productivity in Software Development Teams_. Information 2021, 12, 396. https://doi.org/10.3390/info12100396.
+
+<a id="12">[12]</a>: Norman, G. Likert scales, levels of measurement and the “laws” of statistics. Adv in Health Sci Educ 15, 625–632 (2010). https://doi.org/10.1007/s10459-010-9222-y
 
 <!-- Links
 
