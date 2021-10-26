@@ -12,9 +12,9 @@ Productivity is important in business, not only because it will decrease costs b
 
 One of the most important tasks managers or product owners have is to improve productivity of their employees. Some of these managers use several metrics to track, and give feedback to, their developers so they know whether they are performing well or in what areas they can improve. Most still lack such a feedback system and rely on the developer reflecting back on his own _perceived_ productivity. 
 
-Many factors impact the productivity of a developer. Oliveira _et al._ found that certain code characteristics correlated with the productivity of an employee as observed by the manager. These metrics could be measured automatically and given as feedback to both the employees and the managers. 
+Many factors impact the productivity of a developer. Oliveira _et al._ found that certain code characteristics correlated with the productivity of an employee as observed by the manager<sup>[[2]](#2)</sup>. These metrics could be measured automatically and given as feedback to both the employees and the managers. 
 
-The effect this would have on the employees could go both ways. The employees could feel an incentive to work harder, as their productivity is being measured and they want the company to think that they are delivering good work. However, the additional surveillance could put more stress on the employees, causing them to be more unhappy, which could reduce their problem solving abilities (Graziotin, 2014).
+The effect this would have on the employees could go both ways. The employees could feel an incentive to work harder, as their productivity is being measured and they want the company to think that they are delivering good work. However, the additional surveillance could put more stress on the employees, causing them to be more unhappy, which could reduce their problem solving abilities<sup>[[10]](#10)</sup>.
 
 Managers could use this information to keep an eye on certain employees that might have a reason to be less productive. They could then optimize the workflow of these employees to improve their productivity. They could also look at the most productive employees and see what they are doing right, to streamline the workflow of the team.
 
