@@ -2,6 +2,8 @@
 
 _Niek van der Plas (5363780) & Mark Meijhuis (4389255)_
 
+<small>*We are okay with publishing our report to NeverWorkInTheory*</small>
+
 **TL;DR:**  
 
 Productivity is important in business, not only because it will decrease costs but also it will reduce the time-to-market of services and products. In this research project, we will attempt to objectively measure productivity within teams of different sizes and see if using this data as feedback will improve productivity in software development. We will also determine if managers are able to improve the productivity of their team when they have this objective productivity data available.
